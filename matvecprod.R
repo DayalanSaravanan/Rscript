@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# File: matvecprod.r
+# File: matvecprod.R
 # Name: D.Saravanan
 # Date: 16/10/2020
 # Script to perform matrix vector product
