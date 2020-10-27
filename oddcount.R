@@ -6,11 +6,9 @@
 
 oddcount <- function(x) {
 	n <- 0
-
 	for (m in x) {
 		if (m %% 2 == 1) n <- n + 1
 	}
-
 	return(n)
 }
 
