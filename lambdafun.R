@@ -6,10 +6,10 @@
 
 (function(x) x**2) (41)
 
-square <- (function(x) x**2)
+square <- function(x) x**2
 square(41)
 
 (function(x, y) x**y) (7, 2)
 
-N = (function(x, y) x**y)
+N = function(x, y) x**y
 N(7, 2)
