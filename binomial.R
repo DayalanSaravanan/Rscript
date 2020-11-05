@@ -14,8 +14,5 @@ fact <- function(n) {
 }
 
 binomial <- function(k, n, p) {
-	result = (fact(n)/(fact(k) * fact(n-k))) * p**k * (1 - p)**(n-k)
-	return(result)
+	return((fact(n)/(fact(k) * fact(n-k))) * p**k * (1 - p)**(n-k))
 }
-
-
